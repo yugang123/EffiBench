@@ -3,7 +3,17 @@ You must follow the following rules:
 First, the code should be in ```python\n[Code]\n``` block.
 Second, You should not add the provided test cases into your ```\npython[Code]\n``` block.
 Third, You are not need to write the test cases, we will provide the test cases for you.
-Finally, You should make sure that the provided test cases can pass your solution.
+Fourth, You should make sure that the provided test cases can pass your solution.
+Finally, Write programs in Python.
+The time complexities in order from smallest to largest are:
+1. Constant time
+2. Logarithmic time
+3. Linear time
+4. Linearithmic time
+5. Quadratic time
+6. Cubic time
+Where possible, aim to use constant, Logarithmic, linear or linearithmic time complexity algorithms. Avoid quadratic and cubic time complexities unless absolutely necessary. The smaller the time complexity, the better.
+
 
 Here is a example:
 Example:
