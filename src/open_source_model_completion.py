@@ -66,6 +66,9 @@ if __name__ == "__main__":
             dataset[i : i + batch_size], model, tokenizer
         )
 
+    output_dir = "./results"
+    os.makedirs(output_dir, exist_ok=True)  # This will create the directory if it doesn't exist
+
     end_name = checkpoint.split("/")[-1]
-    with open(f"./results/{end_name}.json", "w") as f:
+    with open(f"{output_dir}/{end_name}.json", "w") as f:
         json.dump(dataset, f, indent=4)
