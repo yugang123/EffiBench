@@ -12,7 +12,7 @@ The time complexities in order from smallest to largest are:
 4. Linearithmic time
 5. Quadratic time
 6. Cubic time
-Where possible, aim to use constant, Logarithmic, linear or linearithmic time complexity algorithms. Avoid quadratic and cubic time complexities unless absolutely necessary. The smaller the time complexity, the better.
+Time complexity requirement: Where possible, aim to use constant, Logarithmic, linear or linearithmic time complexity algorithms. Avoid quadratic and cubic time complexities unless absolutely necessary. The smaller the time complexity, the better.
 
 
 Here is a example:
