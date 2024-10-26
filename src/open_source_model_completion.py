@@ -1,6 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 import json
+import os
 from tqdm import tqdm
 
 batch_size = 8
